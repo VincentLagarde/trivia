@@ -12,6 +12,11 @@ public class GameRunner {
 
 		Random rand = new Random();
 
+		play(rand);
+
+	}
+
+	public static void play(Random rand) {
 		Game aGame = new Game();
 
 		aGame.add("Chet");
@@ -29,6 +34,7 @@ public class GameRunner {
 			}
 
 		} while (notAWinner);
-
 	}
+
+	
 }
